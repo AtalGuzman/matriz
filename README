@@ -1,0 +1,27 @@
+Laboratorio de sistemas operativos.
+Dirigirse a la carpeta src, utilizar el comando make.
+
+Dirigirse a la carpeta build para ejecutar el programa.
+
+Ubicar los archivos de matrices a utilizar en la carpeta build
+
+Por favor ingresar los comandos del siguiente modo, respetando
+espacios e ingreso ĺos parámetros de entrada:
+
+load A A.txt , no es necesario agregar comillas para el nombre de los archivos
+save A A.txt el archivo de escritura se ubicará en la carpeta build
+clear A
+print A
+clear A
+A=B+C
+A=B-C
+A=B*C
+A=A*k  con k constante, solo números enteros positivos
+A=trans B
+A=B
+exit
+
+Los resultados de las operaciones, no se muestran inmediatamente en pantalla
+si desea visualizarlos utilice el comando print sobre la matriz en la cual
+guardó el resultado.
+
