@@ -23,7 +23,6 @@ int* leerMatriz(char* entrada){
 		int j=0;
 		int temporal;
 		fscanf(archivoEntrada,"%d\n%d\n",&lineaN,&lineaM);
-		int *matrizPre = malloc((lineaN*lineaM+2)*sizeof(int));
 		matrizPre[0] = lineaN;
 		matrizPre[1] = lineaM;
 		i=2;
